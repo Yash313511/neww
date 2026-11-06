@@ -1,0 +1,71 @@
+Practical: Use DFS for Problem Solving (Maze Problem)
+
+1. Aim
+
+To implement the Depth First Search (DFS) algorithm to solve the Maze Problem using Python.
+
+2. Objectives
+
+1. To understand the concept of Depth First Search.
+2. To implement DFS for solving a maze.
+3. To find a path from the starting position to the goal.
+4. To understand how DFS explores nodes using recursion.
+
+3. Theory
+
+Depth First Search (DFS):
+
+DFS is a graph traversal algorithm that explores one path as deeply as possible before backtracking.
+
+It uses a Stack data structure or recursion to explore nodes.
+
+Maze Problem:
+
+The Maze Problem consists of finding a valid path from a starting position to a destination while avoiding blocked cells (walls).
+
+Working of DFS:
+
+1. Start from the initial position.
+2. Check the available neighbouring positions.
+3. Move to an unvisited valid position.
+4. Continue exploring until the destination is reached.
+5. If a path is blocked, backtrack and try another path.
+6. Stop when the destination is found.
+
+4. Algorithm
+
+1. Define the maze with start and goal positions.
+2. Initialize a visited set.
+3. Start DFS from the initial position.
+4. Check all four directions (up, down, left, right).
+5. Move only to valid and unvisited positions.
+6. If the goal is reached, return the path.
+7. If no path is available, backtrack.
+8. Display the final path.
+
+5. Python Program
+7. Procedure
+
+1. Open Python IDLE or VS Code.
+2. Create a new Python file named maze_dfs.py.
+3. Write the above Python program.
+4. Save the file.
+5. Run the program.
+6. Observe the output.
+7. Verify that DFS finds a valid path from start to goal.
+
+8. Applications
+
+1. Maze solving.
+2. Graph traversal.
+3. Path finding.
+4. Puzzle solving.
+5. Artificial Intelligence problem-solving.
+
+9. Result
+
+The Maze Problem was successfully implemented and solved using the Depth First Search (DFS) algorithm in Python.
+
+10. Conclusion
+
+Thus, we studied and implemented DFS to find a valid path in a maze using recursion and backtracking.

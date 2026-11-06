@@ -1,0 +1,65 @@
+Practical: 8-Queens Problem Using Backtracking Search
+
+1. Aim
+
+To implement Backtracking Search to solve the 8-Queens Constraint Satisfaction Problem using Python.
+
+2. Objectives
+
+1. To understand the concept of Backtracking Search.
+2. To understand the 8-Queens problem.
+3. To place 8 queens on an 8 × 8 chessboard.
+4. To ensure that no two queens attack each other.
+
+3. Theory
+
+The 8-Queens problem is a classical Artificial Intelligence problem in which 8 queens are placed on an 8 × 8 chessboard.
+
+The main condition is that no two queens should attack each other.
+
+Rules:
+
+1. No two queens should be in the same row.
+2. No two queens should be in the same column.
+3. No two queens should be on the same diagonal.
+
+Backtracking Search:
+
+Backtracking is an algorithmic technique that solves problems step by step. If a selected position is not valid, the algorithm goes back and tries another position.
+
+4. Algorithm
+
+1. Start from the first row.
+2. Check each column for a safe position.
+3. If the position is safe, place a queen.
+4. Move to the next row.
+5. Repeat the process until all 8 queens are placed.
+6. If no safe position is available, remove the previously placed queen.
+7. Try another position until a valid solution is found.
+
+5. Program (Python)
+7. Procedure
+
+1. Open Python IDLE or VS Code.
+2. Create a new Python file named eight_queens.py.
+3. Write the above program.
+4. Save the file.
+5. Run the program.
+6. Observe the output.
+7. Verify that no two queens attack each other.
+
+8. Applications
+
+1. Artificial Intelligence problem-solving.
+2. Constraint Satisfaction Problems (CSP).
+3. Scheduling problems.
+4. Puzzle solving.
+5. Optimization problems.
+
+9. Result
+
+The 8-Queens problem was successfully implemented using the Backtracking Search algorithm in Python. The program successfully placed 8 queens on the chessboard without violating any constraints.
+
+10. Conclusion
+
+Thus, we successfully implemented the 8-Queens problem using Backtracking Search. We understood how the algorithm finds a valid solution by trying different positions and backtracking whenever a constraint is violated.
